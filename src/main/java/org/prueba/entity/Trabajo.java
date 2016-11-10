@@ -1,9 +1,6 @@
 package org.prueba.entity;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.ManyToOne;
+import javax.persistence.*;
 
 /**
  * Created by a185120 on 10/11/2016.
@@ -17,7 +14,8 @@ public class Trabajo {
 
     private String nombreTrabajo;
 
-    @ManyToOne
+    @ManyToOne(cascade = CascadeType.PERSIST, fetch = FetchType.LAZY)
+    @JoinColumn(name="TRABAJADOR_ID")
     private Persona trabajador;
 
 

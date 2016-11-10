@@ -2,6 +2,7 @@
 <persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
     <persistence-unit name="testPU" transaction-type="RESOURCE_LOCAL">
         <class>org.prueba.entity.Persona</class>
+        <class>org.prueba.entity.Trabajo</class>
         <properties>
             <property name="openjpa.ConnectionURL" value="jdbc:hsqldb:mem:mydb"/>
             <property name="openjpa.ConnectionDriverName" value="org.hsqldb.jdbcDriver"/>

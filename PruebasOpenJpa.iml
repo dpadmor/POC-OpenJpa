@@ -6,7 +6,7 @@
         <setting name="validation-enabled" value="true" />
         <setting name="provider-name" value="OpenJPA" />
         <datasource-mapping>
-          <factory-entry name="testPU" />
+          <factory-entry name="testPU" value="d6c13c6c-03cd-4393-9bb1-63b9100f07af" />
         </datasource-mapping>
         <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/src/test/resources/META-INF/persistence.xml" />
       </configuration>
@@ -37,9 +37,9 @@
     <orderEntry type="library" scope="PROVIDED" name="Maven: asm:asm:3.2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: javax.xml.stream:stax-api:1.0-2" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.apache.geronimo.specs:geronimo-jpa_2.0_spec:1.1" level="project" />
-    <orderEntry type="library" name="Maven: org.slf4j:slf4j-log4j12:1.7.21.redhat-1" level="project" />
-    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.21.redhat-1" level="project" />
-    <orderEntry type="library" name="Maven: log4j:log4j:1.2.17.redhat-1" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-log4j12:1.7.21" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.21" level="project" />
+    <orderEntry type="library" name="Maven: log4j:log4j:1.2.17" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.11" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.apache.derby:derby:10.10.1.1" level="project" />
